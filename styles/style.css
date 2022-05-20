@@ -38,6 +38,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
+  z-index: 2;
 }
 
 .header__title{
@@ -50,6 +51,7 @@
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
+  z-index: 10;
   }
 
 .header__subtitle{
@@ -61,6 +63,7 @@
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
+  z-index: 9;
   }
 
 .header__link{
@@ -151,6 +154,8 @@
 }
 
 .section-title {
+  position: relative;
+  z-index: 3;
   margin:0 0 20px;
   width:60%;
   line-height: 69px;
@@ -159,16 +164,18 @@
   margin-left:auto;
   margin-right:auto;
   text-align: center;
+
 }
 
 .section-subtitle {
+  position: relative;
+  z-index: 3;
   width:60%;
   line-height: 34px;
   font-size:24px;
   font-weight: normal;
   text-align: center;
-  margin-left:auto;
-  margin-right:auto;
+  margin: 0 auto 0;
 }
 
 .table {
@@ -267,15 +274,16 @@
   height:877px;
   position: absolute;
   background-repeat: no-repeat;
+  background-size: cover;
   right:-210px;
   top:0;
-
+  z-index: 1;
 }
 
 
 .table_theme_dark {
   color: white;
-  z-index:1;
+  z-index: 2;
 }
 
 .theme_dark {
