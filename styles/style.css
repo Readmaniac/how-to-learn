@@ -11,7 +11,6 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   align-items: center;
-  background: #f2f2f2;
   margin: 0 auto;
 
 }
@@ -20,12 +19,14 @@
 
 /*Header*/
 .header {
-  line-height: 100vh;
+  height: 100vh;
   min-height: 600px;
   max-height: 756px;
   position:relative;
   display: flex;
   align-items: center;
+  overflow: hidden;
+  background: #f2f2f2;
 
   /* выше установили ограничения для секции */
 }
@@ -87,7 +88,7 @@
   width: 568px;
   position: absolute;
   right:0;
-
+  top: 64px
 }
 
 /*Секция Discription*/
@@ -102,7 +103,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-    }
+  background: #fff;
+  }
 
 .two-columns{
   width: 80%;
@@ -150,6 +152,7 @@
   margin-top:100px;
   margin-bottom:100px;
   position: relative;
+  background: #fff;
 }
 
 .section-title {
@@ -227,6 +230,7 @@
   align-items: center;
   justify-content: flex-start;
   margin: 0;
+  background-color: #f2f2f2;;
 }
 
 .feynman__title{
@@ -300,7 +304,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   background: #1f1f1f;
   color: white;
   min-height: 350px;
@@ -310,8 +313,10 @@
   min-width: 90%;
   justify-content: space-between;
   display: flex;
-  min-height: 350px;
-  margin: 60px 0 40px;
+  height:250px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+
 }
 
 .footer__column_content_copyright{
