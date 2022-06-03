@@ -1,5 +1,4 @@
 .resources__link:hover{
   transition-duration: 1s;
   opacity: 0.5;
-  text-decoration: none;
 }
